@@ -1,0 +1,38 @@
+{
+  "name": "image-extractor-production",
+  "version": "1.0.0",
+  "description": "Production build of Image Extractor - Extract and download images from any webpage",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "install": "npm ci --only=production"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.0",
+    "archiver": "^7.0.0",
+    "connect-pg-simple": "^9.0.0",
+    "drizzle-orm": "^0.29.0",
+    "express": "^4.18.0",
+    "express-session": "^1.17.0",
+    "memorystore": "^1.6.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "puppeteer": "^21.0.0",
+    "sharp": "^0.33.0",
+    "ws": "^8.14.0",
+    "zod": "^3.22.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "image-extractor",
+    "web-scraping",
+    "puppeteer",
+    "react",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
